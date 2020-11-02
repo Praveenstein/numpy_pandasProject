@@ -1,0 +1,59 @@
+2020-11-02 11:20:32,159 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 11:20:32,160 -INFO - solutions.vector_product- vector_product.py - find_dot_product -  The Dot Product of all given vectors [[1. 2. 3.]] is: 6.0
+2020-11-02 11:21:23,127 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 11:21:23,127 -INFO - solutions.l1_l2_norm- l1_l2_norm.py - find_l1_norm - The L1 Norm of given vector [1.0, 2.0, 3.0] is: 6.0
+2020-11-02 11:21:23,128 -INFO - solutions.l1_l2_norm- l1_l2_norm.py - find_l2_norm - The L2 Norm of given vector [1.0, 2.0, 3.0] is: 3.7417
+2020-11-02 11:24:40,884 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 11:24:40,884 -ERROR - solutions.utils.input_extractor- input_extractor.py - get_vector_from_file - ValueError: could not convert string to float: '2\n6'
+2020-11-02 11:29:25,460 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 11:29:25,460 -ERROR - solutions.utils.input_extractor- input_extractor.py - get_vector_from_file - ValueError: could not convert string to float: '2\n6'
+2020-11-02 11:30:21,366 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 11:30:21,367 -INFO - solutions.vector_product- vector_product.py - find_dot_product -  The Dot Product of all given vectors [[1. 2.]
+ [6. 5.]
+ [1. 2.]] is: 26.0
+2020-11-02 11:30:40,155 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 11:30:40,155 -INFO - solutions.vector_product- vector_product.py - find_dot_product -  The Dot Product of all given vectors 
+ [[1. 2.]
+ [6. 5.]
+ [1. 2.]] is: 26.0
+2020-11-02 11:31:20,743 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 11:32:46,677 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 11:32:46,683 -ERROR - solutions.vector_product- vector_product.py - find_dot_product - All vectors should be of equal length
+2020-11-02 11:33:07,389 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 11:33:07,389 -ERROR - solutions.vector_product- vector_product.py - find_dot_product - AttributeError: All vectors should be of equal length
+2020-11-02 11:33:24,088 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 11:33:24,089 -INFO - solutions.vector_product- vector_product.py - find_dot_product -  The Dot Product of all given vectors 
+ [[1. 2.]
+ [6. 5.]
+ [1. 2.]
+ [2. 3.]] is: 72.0
+2020-11-02 11:51:18,606 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 11:51:18,606 -INFO - solutions.vector_product- vector_product.py - find_dot_product -  The Dot Product of all given vectors 
+ [[ 1.  2.]
+ [ 6.  5.]
+ [ 1.  2.]
+ [-2.  3.]] is: 48.0
+2020-11-02 13:02:56,444 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 13:04:23,112 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 13:04:49,022 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 13:05:14,425 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 13:06:24,435 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 13:06:24,435 -INFO - solutions.harmonic_progression_q3- harmonic_progression_q3.py - get_n_harmonic_term - The 6 th Term of given harmonic progression is: -4.285714285714285
+2020-11-02 13:08:14,606 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 13:08:14,606 -INFO - solutions.harmonic_progression_q3- harmonic_progression_q3.py - get_n_harmonic_term - The 6 th Term of given harmonic progression is: -4.285714285714285
+2020-11-02 13:08:44,146 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 13:08:44,147 -INFO - solutions.harmonic_progression_q3- harmonic_progression_q3.py - get_n_harmonic_term - The 6 th Term of given harmonic progression is: -4.2857
+2020-11-02 13:09:30,553 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 13:09:30,553 -INFO - solutions.harmonic_progression_q3- harmonic_progression_q3.py - get_n_harmonic_term - The 6 th Term of given harmonic progression is: -4.2857
+2020-11-02 13:09:50,878 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 13:09:50,879 -ERROR - solutions.harmonic_progression_q3- harmonic_progression_q3.py - get_n_harmonic_term - The given sequence is not a harmonic sequence
+2020-11-02 13:09:59,340 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 13:09:59,340 -INFO - solutions.harmonic_progression_q3- harmonic_progression_q3.py - get_n_harmonic_term - The 6 th Term of given harmonic progression is: -4.2857
+2020-11-02 13:29:23,298 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 13:29:23,314 -ERROR - solutions.utils.input_extractor- input_extractor.py - get_vector_from_file - ValueError: could not convert string to float: '−3'
+2020-11-02 13:30:06,121 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 13:30:06,122 -INFO - solutions.geometric_progression_q4- geometric_progression_q4.py - get_n_geometric_term - The 6 th Term of given Geometric progression is: -243.0
+2020-11-02 13:30:55,571 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 13:30:55,571 -ERROR - solutions.geometric_progression_q4- geometric_progression_q4.py - get_n_geometric_term - The given sequence is not a geometric sequence
+2020-11-02 13:31:03,620 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 13:31:03,620 -INFO - solutions.geometric_progression_q4- geometric_progression_q4.py - get_n_geometric_term - The 6 th Term of given Geometric progression is: -243.0
