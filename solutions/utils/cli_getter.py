@@ -26,7 +26,7 @@ def get_input_arguments():
     my_parser = argparse.ArgumentParser(allow_abbrev=False)
 
     my_parser.add_argument('--logfile', action='store', type=str, required=True)
-    my_parser.add_argument('--inputfile', action='store', type=str, required=True)
+    my_parser.add_argument('--inputfile', action='store', type=str, required=False)
     my_parser.add_argument('--number', action='store', type=int, required=False)
 
     args = my_parser.parse_args()

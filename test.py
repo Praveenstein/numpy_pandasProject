@@ -1,14 +1,9 @@
-import numpy as np
-import matplotlib.pylab as plt
+import pandas as pd
 
-x_axis = np.arange(-50, 50, 0.5)
-y_axis_sin = np.sin(x_axis)
-y_axis_cos = np.cos(x_axis)
-y_axis_sig = 1 / (1 + np.exp(-x_axis))
-
-fig, axs = plt.subplots(3)
-fig.suptitle('Sine, Cosine and Sigmoid Plots')
-axs[0].plot(x_axis, y_axis_sin)
-axs[1].plot(x_axis, y_axis_cos)
-axs[2].plot(x_axis, y_axis_sig)
-plt.show()
+df = pd.read_csv("input/timeseries_q7.csv", header=0, index_col=0)
+print(df.head())
+print("\n\n")
+index_df = pd.to_datetime(df.index)
+df.index = index_df
+daily_df = df.resample('M').sum()
+print(daily_df.head())

@@ -43,7 +43,7 @@ def main():
     # Extract the Input Vector from file
     input_vector = helper.get_vector_from_file(helper.ARGUMENTS.inputfile)
 
-    # Finding the L1 Norm of given vector
+    # Finding the Nth Geometric Term
     solutions.get_n_geometric_term(input_vector, 6)
 
 

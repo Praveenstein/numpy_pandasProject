@@ -9,7 +9,7 @@ This script requires the following modules be installed in the python environmen
     * logging - to perform logging operations
 
 This script contains the following function
-    * get_n_geometric_term - Function to find the Nth term of Geometric progression
+    * plot_curves - Function to find the Nth term of Geometric progression
 """
 # Standard Imports
 import logging
@@ -23,7 +23,7 @@ __author__ = "praveen@gyandata.com"
 LOGGER = logging.getLogger(__name__)
 
 
-def get_n_geometric_term(vector):
+def plot_curves(vector):
     """
     Nth Term Of Geometric Progression- Function
     -----------------------------------------------
@@ -50,11 +50,13 @@ def get_n_geometric_term(vector):
             # If not, an error is raised
             raise AttributeError("The Vector Elements Should be Integer or Float")
 
+        # Creating the X axis and Y axis Points for all three curves
         x_axis = np.array(vector)
         y_axis_sin = np.sin(x_axis)
         y_axis_cos = np.cos(x_axis)
         y_axis_sig = 1 / (1 + np.exp(-x_axis))
 
+        # Creating 3 Subplots
         fig, axs = plt.subplots(3)
         fig.suptitle('Sine, Cosine and Sigmoid Plots')
         axs[0].plot(x_axis, y_axis_sin)

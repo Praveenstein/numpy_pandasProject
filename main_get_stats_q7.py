@@ -1,18 +1,19 @@
 # -*- coding: utf-8 -*-
 """
-Nth Harmonic Term Main
+Descriptive Stats of Time Series Data Main
 ==========================================
 
-Main Module for finding the Nth term of harmonic progression given it's first 5 terms
+Main Module for Module for computing the min, max, mean and median for a given time-series data:
+                        a. For every hour
+                        b. For every day
+                        c. For every month
 
 This script requires the following modules be installed in the python environment
     * logging - to perform logging operations
 
 This script contains the following function
 
-    * main - main function to call appropriate functions to find the Nth term of harmonic progression given it's first
-             5 terms
-
+    * main - main function to call appropriate functions to compute all the stats
 """
 # Standard imports
 import logging
@@ -28,8 +29,8 @@ LOGGER = logging.getLogger(__name__)
 
 def main():
     """
-    Main function to find the Nth term of harmonic progression given it's first 5 terms
-
+    Main function to call appropriate functions to compute all the stats
+    
     :return: Nothing
     :rtype: None
     """
@@ -40,11 +41,7 @@ def main():
     # Configuring logging
     helper.configure_logging(log_config_file)
 
-    # Extract the Input Vector from file
-    input_vector = helper.get_vector_from_file(helper.ARGUMENTS.inputfile)
-
-    # Finding the Nth Harmonic Term
-    solutions.get_n_harmonic_term(input_vector, 6)
+    solutions.get_stats(helper.ARGUMENTS.inputfile)
 
 
 if __name__ == '__main__':
