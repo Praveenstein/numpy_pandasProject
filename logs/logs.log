@@ -7774,3 +7774,20 @@ The eigen vector is:
 [0.26906912+0.40360368j 0.87447463+0.j        ]
 
 
+2020-11-02 21:31:51,462 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-02 21:31:51,462 -INFO - solutions.moving_mean_q8- moving_mean_q8.py - find_sma_em - The SMA and EM for the given array are: 
+      0         SMA          EM
+0   459         NaN  459.000000
+1   300         NaN  379.500000
+2   275  344.666667  344.666667
+3   379  318.000000  353.250000
+4   331  328.333333  348.800000
+..  ...         ...         ...
+95  149  314.000000  324.416667
+96  112  231.333333  322.226804
+97  437  232.666667  323.397959
+98  127  225.333333  321.414141
+99  439  334.333333  322.590000
+
+[100 rows x 3 columns]
+

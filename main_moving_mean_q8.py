@@ -1,19 +1,20 @@
 # -*- coding: utf-8 -*-
 """
-Find Eigen Values and Eigen Vectors Main
-==============================================
+Title Main
+==========================================
 
-Main Module for Finding Eigen Values and Eigen Vectors of given matrix
+Main Module for 
 
 This script requires the following modules be installed in the python environment
     * logging - to perform logging operations
 
 This script contains the following function
 
-    * main - main function to call appropriate functions to Find the Eigen Values and Eigen Vectors of given matrix
+    * main - main function to call appropriate functions to
 """
 # Standard imports
 import logging
+import random
 
 # User Imports
 import solutions.utils as helper
@@ -26,7 +27,7 @@ LOGGER = logging.getLogger(__name__)
 
 def main():
     """
-    Main function to Find the Eigen Values and Eigen Vectors of given matrix
+    Main function to 
     
     :return: Nothing
     :rtype: None
@@ -38,10 +39,10 @@ def main():
     # Configuring logging
     helper.configure_logging(log_config_file)
 
-    # Extract the Input Vector from file
-    input_matrix = helper.get_complex_matrix_from_file(helper.ARGUMENTS.inputfile)
+    input_vector = [random.randint(100, 500) for _ in range(100)]
 
-    solutions.find_eigen_value_vector(input_matrix)
+    # Finding the L2 Norm of given vector
+    solutions.find_sma_em(input_vector, helper.ARGUMENTS.number)
 
 
 if __name__ == '__main__':

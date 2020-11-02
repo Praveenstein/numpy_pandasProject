@@ -43,23 +43,25 @@ def find_l1_norm(vector):
     :return: Nothing
     :rtype: None
     """
+    try:
+        # Checking if the Given Vector is of Type List
+        if not issubclass(type(vector), list):
+            # If not, an error is raised
+            raise AttributeError("Vector Should be Given a List")
 
-    # Checking if the Given Vector is of Type List
-    if not issubclass(type(vector), list):
-        # If not, an error is raised
-        raise AttributeError("Vector Should be Given a List")
+        # Creating a map object with values either true (if the corresponding item is either integer or float) or false
+        type_check = map(lambda arg: issubclass(type(arg), int) or issubclass(type(arg), float), vector)
 
-    # Creating a map object with values either true (if the corresponding item is either integer or float) or false
-    type_check = map(lambda arg: issubclass(type(arg), int) or issubclass(type(arg), float), vector)
+        # Checking if all the elements of the list is of type integer or float
+        if not all(type_check):
+            # If not, an error is raised
+            raise AttributeError("The Vector Elements Should be Integer or Float")
 
-    # Checking if all the elements of the list is of type integer or float
-    if not all(type_check):
-        # If not, an error is raised
-        raise AttributeError("The Vector Elements Should be Integer or Float")
-
-    vector_array = np.array(vector)
-    l1_norm = norm(vector_array, ord=1)
-    LOGGER.info("The L1 Norm of given vector %s is: %s", vector, l1_norm)
+        vector_array = np.array(vector)
+        l1_norm = norm(vector_array, ord=1)
+        LOGGER.info("The L1 Norm of given vector %s is: %s", vector, l1_norm)
+    except AttributeError as err:
+        LOGGER.error("AttributeError: %s", err)
 
 
 def find_l2_norm(vector):
@@ -81,20 +83,22 @@ def find_l2_norm(vector):
     :return: Nothing
     :rtype: None
     """
+    try:
+        # Checking if the Given Vector is of Type List
+        if not issubclass(type(vector), list):
+            # If not, an error is raised
+            raise AttributeError("Vector Should be Given as a List")
 
-    # Checking if the Given Vector is of Type List
-    if not issubclass(type(vector), list):
-        # If not, an error is raised
-        raise AttributeError("Vector Should be Given as a List")
+        # Creating a map object with values either true (if the corresponding item is either integer or float) or false
+        type_check = map(lambda arg: issubclass(type(arg), int) or issubclass(type(arg), float), vector)
 
-    # Creating a map object with values either true (if the corresponding item is either integer or float) or false
-    type_check = map(lambda arg: issubclass(type(arg), int) or issubclass(type(arg), float), vector)
+        # Checking if all the elements of the list is of type integer or float
+        if not all(type_check):
+            # If not, an error is raised
+            raise AttributeError("The Vector Elements Should be Integer or Float")
 
-    # Checking if all the elements of the list is of type integer or float
-    if not all(type_check):
-        # If not, an error is raised
-        raise AttributeError("The Vector Elements Should be Integer or Float")
-
-    vector_array = np.array(vector)
-    l2_norm = norm(vector_array)
-    LOGGER.info("The L2 Norm of given vector %s is: %s", vector, round(l2_norm, 4))
+        vector_array = np.array(vector)
+        l2_norm = norm(vector_array)
+        LOGGER.info("The L2 Norm of given vector %s is: %s", vector, round(l2_norm, 4))
+    except AttributeError as err:
+        LOGGER.error("AttributeError: %s", err)
