@@ -12,3 +12,4 @@ from solutions.harmonic_progression_q3 import get_n_harmonic_term
 from solutions.geometric_progression_q4 import get_n_geometric_term
 from solutions.plot_curves_q5 import plot_curves
 from solutions.timeseries_q7 import get_stats
+from solutions.eingen_value_vector_q10 import find_eigen_value_vector

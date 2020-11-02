@@ -77,3 +77,34 @@ def get_matrix_from_file(filepath):
         # String to float
         LOGGER.error("ValueError: %s", err)
         raise
+
+
+def get_complex_matrix_from_file(filepath):
+    """
+    Function to extract the input vectors (matrix of vector, whose elements could also be complex numbers) from a file
+    and convert their elements to float
+
+    :param filepath: The path of input file consisting of the vectors
+    :type filepath: str
+
+    :return: The vectors as a list of list
+    :rtype: list
+    """
+
+    try:
+        with open(filepath, 'r') as file_object:
+            input_data = []
+            for lines in file_object:
+                input_line = lines
+                input_line = input_line.split(",")
+                input_line = list(map(lambda arg: complex(arg.rstrip("\n")), input_line))
+                input_data.append(input_line)
+        return input_data
+    except FileNotFoundError as err:
+        LOGGER.error("FileNotFoundError: %s", err)
+        raise
+    except ValueError as err:
+        # This will be raised if the elements of the list cannot be converted to float, such as a conversion from
+        # String to float
+        LOGGER.error("ValueError: %s", err)
+        raise

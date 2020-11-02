@@ -7,6 +7,8 @@ Module for finding the Nth term of Geometric progression given it's first 5 term
 
 This script requires the following modules be installed in the python environment
     * logging - to perform logging operations
+    * Numpy - Package with multi-dimensional arrays and matrices, along with a large collection of high-level
+              mathematical functions to operate on these arrays
 
 This script contains the following function
     * plot_curves - Function to find the Nth term of Geometric progression
