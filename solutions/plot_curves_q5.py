@@ -58,12 +58,22 @@ def plot_curves(vector):
         y_axis_cos = np.cos(x_axis)
         y_axis_sig = 1 / (1 + np.exp(-x_axis))
 
-        # Creating 3 Subplots
-        fig, axs = plt.subplots(3)
-        fig.suptitle('Sine, Cosine and Sigmoid Plots')
-        axs[0].plot(x_axis, y_axis_sin)
-        axs[1].plot(x_axis, y_axis_cos)
-        axs[2].plot(x_axis, y_axis_sig)
+        # Creating plots for the sin function
+        plt.figure(figsize=(1920 / 96, 1080 / 96), dpi=96)
+        plt.plot(x_axis, y_axis_sin)
+        plt.savefig("sin.jpg", dpi=96)
+        plt.show()
+
+        # Creating plots for the cos function
+        plt.figure(figsize=(1920 / 96, 1080 / 96), dpi=96)
+        plt.plot(x_axis, y_axis_cos)
+        plt.savefig("cos.jpg", dpi=96)
+        plt.show()
+
+        # Creating plots for the sigmoid function
+        plt.figure(figsize=(1920 / 96, 1080 / 96), dpi=96)
+        plt.plot(x_axis, y_axis_sig)
+        plt.savefig("sigmoid.jpg", dpi=96)
         plt.show()
     except AttributeError as err:
         LOGGER.error(err)

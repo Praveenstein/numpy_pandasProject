@@ -50,6 +50,7 @@ def find_knee_index(data, theta):
             raise AttributeError("The given angle should be of type float or np.float64")
 
         data_shape = data.shape
+
         # make rotation matrix
         cos_fun = np.cos(theta)
         sin_fun = np.sin(theta)
@@ -58,13 +59,17 @@ def find_knee_index(data, theta):
         # rotate data vector
         rotated_vector = data.dot(rotation_matrix)
 
-        # Setting knee to be the index where the values are minimum
-        knee = np.where(rotated_vector == rotated_vector.min())[0][0]
+        LOGGER.info("Plotting the Data Before Finding The Index")
+        plt.scatter(rotated_vector[:, 0], rotated_vector[:, 1])
+        plt.show()
+
+        # Setting knee to be the index where the Y- Axis values are minimum
+        knee = np.argmin(rotated_vector[:, 1])
 
         # If the knee is set to the last or first index, then it should have been a convex curve
         if knee == 0 or knee == (data_shape[0] - 1):
             # Hence we find the index where the values are max
-            knee = np.where(rotated_vector == rotated_vector.max())[0][0]
+            knee = np.argmax(rotated_vector[:, 1])
 
         return knee
     except AttributeError as err:
@@ -117,6 +122,9 @@ def plot_knee(data_points):
             # If not, an error is raised
             raise AttributeError("Vector Should be Given a List")
 
+        if len(vector) != 2:
+            raise AttributeError("The points should be from a 2D Plane")
+
         # Creating a map object with values either true (if the corresponding item is either integer or float)
         # or false
         type_check = map(lambda arg: issubclass(type(arg), int) or issubclass(type(arg), float), vector)
@@ -129,13 +137,18 @@ def plot_knee(data_points):
     # Creating numpy array from given list
     data = np.array(data_points)
 
+    LOGGER.info("Plotting the Data Before Finding The Index")
+
+    plt.scatter(data[:, 0], data[:, 1])
+    plt.show()
+
     # Finding the Knee Index
     knee_index = find_knee_index(data, get_data_radiant(data))
 
     LOGGER.info(" The Index of Knee For the Given Data Points is: %s", knee_index)
     LOGGER.info(" The Data Points at Knee Index are: %s", data[knee_index])
 
-    LOGGER.info("Plotting the Data")
+    LOGGER.info("Plotting the Data After Finding the Knee")
 
     plt.scatter(data[:, 0], data[:, 1])
     plt.vlines(data[knee_index, 0], ymin=data[:, 1].min(), ymax=data[:, 1].max(), colors='red', linestyles='--')

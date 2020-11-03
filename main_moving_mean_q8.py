@@ -43,7 +43,7 @@ def main():
     input_vector = [random.randint(100, 500) for _ in range(100)]
 
     # Finding the SMA and EM of the given vector
-    solutions.find_sma_em(input_vector, [1, 2, 3, 4, 5, 6])
+    solutions.find_sma_em(input_vector, 4)
 
 
 if __name__ == '__main__':

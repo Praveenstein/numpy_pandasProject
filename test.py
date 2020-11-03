@@ -1,9 +1,9 @@
-import pandas as pd
+import numpy as np
 
-df = pd.read_csv("input/timeseries_q7.csv", header=0, index_col=0)
-print(df.head())
-print("\n\n")
-index_df = pd.to_datetime(df.index)
-df.index = index_df
-daily_df = df.resample('M').sum()
-print(daily_df.head())
+x = np.array([[1, 2],
+              [3, 4]])
+
+min_ind = np.argmin(x[:, 1])
+element = x[min_ind]
+print(min_ind)
+print(element)
