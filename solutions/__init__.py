@@ -14,3 +14,4 @@ from solutions.plot_curves_q5 import plot_curves
 from solutions.timeseries_q7 import get_stats
 from solutions.eingen_value_vector_q10 import find_eigen_value_vector
 from solutions.moving_mean_q8 import find_sma_em
+from solutions.first_order_differentitaion_q6 import find_derivatives

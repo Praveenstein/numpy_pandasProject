@@ -7,6 +7,7 @@ Module for finding the simple moving average(SMA), expanding window average(EM) 
 
 This script requires the following modules be installed in the python environment
     * logging - to perform logging operations
+    *pandas - This provides the Data structures and operations for manipulating numerical tables and time series
 
 This script contains the following function
     * find_sma_em - Function to find the simple moving average(SMA), expanding window average(EM) of Given Array
