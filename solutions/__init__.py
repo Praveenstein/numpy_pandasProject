@@ -15,3 +15,4 @@ from solutions.timeseries_q7 import get_stats
 from solutions.eingen_value_vector_q10 import find_eigen_value_vector
 from solutions.moving_mean_q8 import find_sma_em
 from solutions.first_order_differentitaion_q6 import find_derivatives
+from solutions.knee_of_curve_q9 import plot_knee

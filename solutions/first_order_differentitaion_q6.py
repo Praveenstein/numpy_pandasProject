@@ -51,7 +51,7 @@ def derivative(function, point, method='central', step_size=0.01):
     :rtype: float
 
     """
-    if not isinstance(point, float) and not isinstance(point, np.ndarray)  and not isinstance(point, int):
+    if not isinstance(point, float) and not isinstance(point, np.ndarray) and not isinstance(point, int):
         raise AttributeError("The Input Parameter Point is of incorrect type")
     if not isinstance(method, str):
         raise AttributeError("The Input Parameter Method should be string")
