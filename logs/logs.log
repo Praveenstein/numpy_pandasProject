@@ -22,3 +22,257 @@
 2020-11-03 23:08:36,667 -INFO - solutions.knee_of_curve_q9- knee_of_curve_q9.py - plot_knee -  The Index of Knee For the Given Data Points is: 10
 2020-11-03 23:08:36,668 -INFO - solutions.knee_of_curve_q9- knee_of_curve_q9.py - plot_knee -  The Data Points at Knee Index are: [11. 64.]
 2020-11-03 23:08:36,670 -INFO - solutions.knee_of_curve_q9- knee_of_curve_q9.py - plot_knee - Plotting the Data After Finding the Knee
+2020-11-04 08:41:55,315 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 08:50:28,571 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 08:50:28,571 -INFO - solutions.knee_of_curve_q9- knee_of_curve_q9.py - plot_knee - Plotting the Data Before Finding The Index
+2020-11-04 08:50:34,280 -INFO - solutions.knee_of_curve_q9- knee_of_curve_q9.py - find_knee_index - Plotting the Data Before Finding The Index
+2020-11-04 08:50:36,876 -INFO - solutions.knee_of_curve_q9- knee_of_curve_q9.py - plot_knee -  The Index of Knee For the Given Data Points is: 10
+2020-11-04 08:50:36,876 -INFO - solutions.knee_of_curve_q9- knee_of_curve_q9.py - plot_knee -  The Data Points at Knee Index are: [11. 64.]
+2020-11-04 08:50:36,877 -INFO - solutions.knee_of_curve_q9- knee_of_curve_q9.py - plot_knee - Plotting the Data After Finding the Knee
+2020-11-04 08:59:49,055 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 09:00:24,434 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 09:01:19,434 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 09:01:31,499 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 09:17:32,822 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 09:18:19,544 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 09:18:20,546 -INFO - __main__- main_plot_digitiser_q11.py - main - [array([254.91247528, 254.92884162, 254.92669936]), array([175.5872549 , 203.73529412, 220.14607843]), array([163.83595019, 167.7016784 , 170.08121278])]
+2020-11-04 09:19:34,617 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 09:20:32,019 -INFO - __main__- main_plot_digitiser_q11.py - main - [array([254.91247528, 254.92884162, 254.92669936]), array([163.83595019, 167.7016784 , 170.08121278]), array([175.5872549 , 203.73529412, 220.14607843])]
+2020-11-04 09:22:59,695 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 09:23:10,585 -INFO - __main__- main_plot_digitiser_q11.py - main - [array([254.91247528, 254.92884162, 254.92669936]), array([163.83595019, 167.7016784 , 170.08121278]), array([175.5872549 , 203.73529412, 220.14607843])]
+2020-11-04 09:23:26,809 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 09:23:38,291 -INFO - __main__- main_plot_digitiser_q11.py - main - [array([254.91247528, 254.92884162, 254.92669936]), array([163.83595019, 167.7016784 , 170.08121278]), array([175.5872549 , 203.73529412, 220.14607843])]
+2020-11-04 09:27:33,108 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 09:27:44,916 -INFO - __main__- main_plot_digitiser_q11.py - main - [array([254.91247528, 254.92884162, 254.92669936]), array([163.83595019, 167.7016784 , 170.08121278]), array([175.5872549 , 203.73529412, 220.14607843])]
+2020-11-04 09:27:58,570 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 09:28:11,638 -INFO - __main__- main_plot_digitiser_q11.py - main - [array([254.91247528, 254.92884162, 254.92669936]), array([175.5872549 , 203.73529412, 220.14607843]), array([163.83595019, 167.7016784 , 170.08121278])]
+2020-11-04 09:30:31,782 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 09:30:42,794 -INFO - __main__- main_plot_digitiser_q11.py - main - [array([254.91247528, 254.92884162, 254.92669936]), array([163.83595019, 167.7016784 , 170.08121278]), array([175.5872549 , 203.73529412, 220.14607843])]
+2020-11-04 09:48:15,691 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 09:48:15,691 -INFO - solutions.knee_of_curve_q9- knee_of_curve_q9.py - plot_knee - Plotting the Data Before Finding The Index
+2020-11-04 09:49:30,189 -INFO - solutions.knee_of_curve_q9- knee_of_curve_q9.py - find_knee_index - Plotting the Data Before Finding The Index
+2020-11-04 09:49:31,535 -INFO - solutions.knee_of_curve_q9- knee_of_curve_q9.py - plot_knee -  The Index of Knee For the Given Data Points is: 10
+2020-11-04 09:49:31,536 -INFO - solutions.knee_of_curve_q9- knee_of_curve_q9.py - plot_knee -  The Data Points at Knee Index are: [11. 64.]
+2020-11-04 09:49:31,537 -INFO - solutions.knee_of_curve_q9- knee_of_curve_q9.py - plot_knee - Plotting the Data After Finding the Knee
+2020-11-04 10:54:27,252 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 10:54:27,252 -INFO - solutions.l1_l2_norm- l1_l2_norm.py - find_l1_norm - The L1 Norm of given vector [1.0, 2.0, 3.0, 5.0, 7.0, 8.0] is: 26.0
+2020-11-04 10:54:27,287 -INFO - solutions.l1_l2_norm- l1_l2_norm.py - find_l2_norm - The L2 Norm of given vector [1.0, 2.0, 3.0, 5.0, 7.0, 8.0] is: 12.3288
+2020-11-04 10:54:43,827 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 10:54:43,827 -INFO - solutions.l1_l2_norm- l1_l2_norm.py - find_l1_norm - The L1 Norm of given vector [1.0, 2.0, 3.0] is: 6.0
+2020-11-04 10:54:43,827 -INFO - solutions.l1_l2_norm- l1_l2_norm.py - find_l2_norm - The L2 Norm of given vector [1.0, 2.0, 3.0] is: 3.7417
+2020-11-04 10:58:06,296 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 10:58:06,296 -INFO - solutions.vector_product_q2- vector_product_q2.py - find_dot_product -  The Dot Product of all given vectors 
+ [[ 1.  2.]
+ [ 6.  5.]
+ [ 1.  2.]
+ [-2.  3.]] is: 48.0
+2020-11-04 11:00:52,956 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 11:00:52,956 -INFO - solutions.harmonic_progression_q3- harmonic_progression_q3.py - get_n_harmonic_term - The 6 th Term of given harmonic progression is: -4.2857
+2020-11-04 11:01:41,506 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 11:02:52,598 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 11:28:44,914 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 11:29:02,002 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 11:29:02,002 -ERROR - solutions.plot_curves_q5- plot_curves_q5.py - plot_curves - The Minimum Values of cos, sine function should be int or float
+2020-11-04 11:29:41,476 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 11:38:24,323 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 11:39:40,914 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 11:43:07,074 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 11:43:07,480 -INFO - solutions.timeseries_q7- timeseries_q7.py - get_stats - The first 5 Values from the Data are:
+
+                      value
+datetime                  
+2019-09-01 00:00:00    235
+2019-09-01 00:10:00    371
+2019-09-01 00:20:00    293
+2019-09-01 00:30:00    276
+2019-09-01 00:40:00    115
+
+
+2020-11-04 11:43:07,605 -INFO - solutions.timeseries_q7- timeseries_q7.py - min_data - Finding the Hourly Min
+2020-11-04 11:43:07,839 -INFO - solutions.timeseries_q7- timeseries_q7.py - min_data - The Hourly Min Values are:
+
+                      value
+datetime                  
+2019-09-01 00:00:00    115
+2019-09-01 01:00:00    156
+2019-09-01 02:00:00    204
+2019-09-01 03:00:00    115
+2019-09-01 04:00:00    174
+
+
+2020-11-04 11:43:07,871 -INFO - solutions.timeseries_q7- timeseries_q7.py - min_data - Finding the Daily Min
+2020-11-04 11:43:07,871 -INFO - solutions.timeseries_q7- timeseries_q7.py - min_data - The Daily Min Values are:
+
+             value
+datetime         
+2019-09-01    102
+2019-09-02    101
+2019-09-03    104
+2019-09-04    101
+2019-09-05    101
+
+
+2020-11-04 11:43:07,886 -INFO - solutions.timeseries_q7- timeseries_q7.py - min_data - Finding the Monthly Min
+2020-11-04 11:43:07,933 -INFO - solutions.timeseries_q7- timeseries_q7.py - min_data - The Monthly Min Values are:
+
+             value
+datetime         
+2019-09-30    100
+2019-10-31    100
+2019-11-30    100
+2019-12-31    100
+2020-01-31    100
+
+
+2020-11-04 11:43:07,949 -INFO - solutions.timeseries_q7- timeseries_q7.py - max_data - Finding the Hourly Max
+2020-11-04 11:43:07,964 -INFO - solutions.timeseries_q7- timeseries_q7.py - max_data - The Hourly Max Values are:
+
+                      value
+datetime                  
+2019-09-01 00:00:00    371
+2019-09-01 01:00:00    376
+2019-09-01 02:00:00    477
+2019-09-01 03:00:00    493
+2019-09-01 04:00:00    478
+
+
+2020-11-04 11:43:07,980 -INFO - solutions.timeseries_q7- timeseries_q7.py - max_data - Finding the Daily Max
+2020-11-04 11:43:07,980 -INFO - solutions.timeseries_q7- timeseries_q7.py - max_data - The Daily Max Values are:
+
+             value
+datetime         
+2019-09-01    495
+2019-09-02    495
+2019-09-03    498
+2019-09-04    497
+2019-09-05    499
+
+
+2020-11-04 11:43:07,996 -INFO - solutions.timeseries_q7- timeseries_q7.py - max_data - Finding the Monthly Max
+2020-11-04 11:43:08,011 -INFO - solutions.timeseries_q7- timeseries_q7.py - max_data - The Monthly Max Values are:
+
+             value
+datetime         
+2019-09-30    499
+2019-10-31    499
+2019-11-30    499
+2019-12-31    499
+2020-01-31    499
+
+
+2020-11-04 11:43:08,011 -INFO - solutions.timeseries_q7- timeseries_q7.py - mean_data - Finding the Hourly Mean
+2020-11-04 11:43:08,027 -INFO - solutions.timeseries_q7- timeseries_q7.py - mean_data - The Hourly Mean Values are:
+
+                           value
+datetime                       
+2019-09-01 00:00:00  266.833333
+2019-09-01 01:00:00  265.666667
+2019-09-01 02:00:00  354.166667
+2019-09-01 03:00:00  354.166667
+2019-09-01 04:00:00  309.333333
+
+
+2020-11-04 11:43:08,074 -INFO - solutions.timeseries_q7- timeseries_q7.py - mean_data - Finding the Daily Mean
+2020-11-04 11:43:08,074 -INFO - solutions.timeseries_q7- timeseries_q7.py - mean_data - The Daily Mean Values are:
+
+                  value
+datetime              
+2019-09-01  291.291667
+2019-09-02  316.923611
+2019-09-03  312.750000
+2019-09-04  305.583333
+2019-09-05  291.250000
+
+
+2020-11-04 11:43:08,089 -INFO - solutions.timeseries_q7- timeseries_q7.py - mean_data - Finding the Monthly Mean
+2020-11-04 11:43:08,105 -INFO - solutions.timeseries_q7- timeseries_q7.py - mean_data - The Monthly Mean Values are:
+
+                  value
+datetime              
+2019-09-30  302.636343
+2019-10-31  299.560484
+2019-11-30  295.598380
+2019-12-31  300.067652
+2020-01-31  298.537410
+
+
+2020-11-04 11:43:08,121 -INFO - solutions.timeseries_q7- timeseries_q7.py - median_data - Finding the Hourly Median
+2020-11-04 11:43:08,121 -INFO - solutions.timeseries_q7- timeseries_q7.py - median_data - The Hourly Median Values are:
+
+                      value
+datetime                  
+2019-09-01 00:00:00  284.5
+2019-09-01 01:00:00  263.0
+2019-09-01 02:00:00  356.0
+2019-09-01 03:00:00  405.0
+2019-09-01 04:00:00  284.0
+
+
+2020-11-04 11:43:08,152 -INFO - solutions.timeseries_q7- timeseries_q7.py - median_data - Finding the Daily Median
+2020-11-04 11:43:08,152 -INFO - solutions.timeseries_q7- timeseries_q7.py - median_data - The Daily Median Values are:
+
+             value
+datetime         
+2019-09-01  282.5
+2019-09-02  340.5
+2019-09-03  321.5
+2019-09-04  314.5
+2019-09-05  297.0
+
+
+2020-11-04 11:43:08,152 -INFO - solutions.timeseries_q7- timeseries_q7.py - median_data - Finding the Monthly Median
+2020-11-04 11:43:08,167 -INFO - solutions.timeseries_q7- timeseries_q7.py - median_data - The Monthly Median Values are:
+
+             value
+datetime         
+2019-09-30    304
+2019-10-31    300
+2019-11-30    294
+2019-12-31    301
+2020-01-31    301
+
+
+2020-11-04 11:52:26,263 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 11:52:26,420 -INFO - solutions.moving_mean_q8- moving_mean_q8.py - find_sma_em - The SMA and EM for the given array are: 
+        0     SMA  SMA_WITH_STRIDE          EM
+0   318.0     NaN              NaN  318.000000
+1   146.0     NaN              NaN  232.000000
+2   234.0     NaN              NaN  232.666667
+3   275.0  243.25           243.25  243.250000
+4   134.0  197.25              NaN  221.400000
+5   383.0  256.50              NaN  248.333333
+6   102.0  223.50              NaN  227.428571
+7   201.0  205.00           205.00  224.125000
+8   482.0  292.00              NaN  252.777778
+9   268.0  263.25              NaN  254.300000
+10  115.0  266.50              NaN  241.636364
+11  266.0  282.75           282.75  243.666667
+12  249.0  224.50              NaN  244.076923
+13  253.0  220.75              NaN  244.714286
+14  192.0  240.00              NaN  241.200000
+15  313.0  251.75           251.75  245.687500
+16  290.0  262.00              NaN  248.294118
+17  122.0  229.25              NaN  241.277778
+18  169.0  223.50              NaN  237.473684
+19  314.0  223.75           223.75  241.300000
+20  431.0  259.00              NaN  250.333333
+21  275.0  297.25              NaN  251.454545
+22  401.0  355.25              NaN  257.956522
+23  473.0  395.00           395.00  266.916667
+24  151.0  325.00              NaN  262.280000
+
+2020-11-04 11:58:54,288 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 11:58:54,514 -INFO - solutions.eingen_value_vector_q10- eingen_value_vector_q10.py - find_eigen_value_vector - For the eigen value: (1+2j), 
+
+The eigen vector is:
+
+[1.+0.j 0.+0.j]
+
+
+2020-11-04 11:58:54,530 -INFO - solutions.eingen_value_vector_q10- eingen_value_vector_q10.py - find_eigen_value_vector - For the eigen value: (3-1j), 
+
+The eigen vector is:
+
+[0.26906912+0.40360368j 0.87447463+0.j        ]
+
+

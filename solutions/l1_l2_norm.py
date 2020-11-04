@@ -3,7 +3,7 @@
 Module to Find the L1 Norm and L2  Norm of a Given Vector
 =============================================================
 
-Module for
+Module for Finding the L1 Norm and L2  Norm of a Given Vector
 
 This script requires the following modules be installed in the python environment
     * logging - to perform logging operations

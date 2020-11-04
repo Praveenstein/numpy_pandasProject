@@ -39,7 +39,9 @@ def main():
     helper.configure_logging(log_config_file)
 
     # Plotting the Curves
-    solutions.plot_curves(list(range(-50, 50, 1)))
+    solutions.plot_curves(helper.ARGUMENTS.x_min_cs, helper.ARGUMENTS.x_max_cs, helper.ARGUMENTS.x_min_sig,
+                          helper.ARGUMENTS.x_max_sig, helper.ARGUMENTS.no_points, helper.ARGUMENTS.width,
+                          helper.ARGUMENTS.height)
 
 
 if __name__ == '__main__':

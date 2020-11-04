@@ -54,6 +54,9 @@ def find_eigen_value_vector(matrix):
                 # If not, an error is raised
                 raise AttributeError("Vector Should be Given a List")
 
+            if len(vector) != len(matrix[0]):
+                raise AttributeError("The Vectors should be of same length")
+
             # Creating a map object with values either true (if the corresponding item is either integer or float or
             # complex) or false
             type_check = map(lambda arg: issubclass(type(arg), int) or issubclass(type(arg), float) or

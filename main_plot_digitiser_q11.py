@@ -1,17 +1,16 @@
 # -*- coding: utf-8 -*-
 """
-Find SMA, EM of Given Array Main
+Title Main
 ==========================================
 
-Main Module for finding the simple moving average(SMA), expanding window average(EM) of Given Array
+Main Module for 
 
 This script requires the following modules be installed in the python environment
     * logging - to perform logging operations
 
 This script contains the following function
 
-    * main - main function to call appropriate functions for finding the simple moving average(SMA), expanding window
-             average(EM) of Given Array
+    * main - main function to call appropriate functions to
 """
 # Standard imports
 import logging
@@ -27,7 +26,7 @@ LOGGER = logging.getLogger(__name__)
 
 def main():
     """
-    Main function for finding the simple moving average(SMA), expanding window  average(EM) of Given Array
+    Main function to 
     
     :return: Nothing
     :rtype: None
@@ -39,10 +38,9 @@ def main():
     # Configuring logging
     helper.configure_logging(log_config_file)
 
-    input_vector = helper.get_vector_from_file(helper.ARGUMENTS.inputfile)
-
-    # Finding the SMA and EM of the given vector
-    solutions.find_sma_em(input_vector, 4)
+    # Plotting the Curves
+    colors = solutions.new_func(3, True)
+    LOGGER.info(colors)
 
 
 if __name__ == '__main__':

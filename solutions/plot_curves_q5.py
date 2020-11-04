@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Nth Term of Harmonic Progression
-====================================
+Module to Plot, sine, cosine and sigmoid functions
+======================================================
 
-Module for finding the Nth term of Geometric progression given it's first 5 terms
+Module for to Plotting, sine, cosine and sigmoid functions
 
 This script requires the following modules be installed in the python environment
     * logging - to perform logging operations
@@ -11,7 +11,7 @@ This script requires the following modules be installed in the python environmen
               mathematical functions to operate on these arrays
 
 This script contains the following function
-    * plot_curves - Function to find the Nth term of Geometric progression
+    * plot_curves - Function to to Plot, sine, cosine and sigmoid functions
 """
 # Standard Imports
 import logging
@@ -25,55 +25,84 @@ __author__ = "praveen@gyandata.com"
 LOGGER = logging.getLogger(__name__)
 
 
-def plot_curves(vector):
+def plot_curves(x_min_cs, x_max_cs, x_min_sig, x_max_sig, no_points=100, width=1920, height=1080):
     """
-    Nth Term Of Geometric Progression- Function
-    -----------------------------------------------
+    Plot, sine, cosine and sigmoid functions- Function
+    ------------------------------------------------------
     
-     Function to find the Nth term of Geometric progression given it's first 5 terms
+     Function to to Plot, sine, cosine and sigmoid functions
 
-    :param vector: The first five terms as a vector
-    :type vector: list
+    :param x_min_cs: The minimum value of x axis for cos and sine function
+    :type x_min_cs: Union[int, float]
+
+    :param x_max_cs: The Maximum value of x axis for cos and sine function
+    :type x_max_cs: Union[int, float]
+
+    :param x_min_sig: The minimum value of x axis for Sigmoid function
+    :type x_min_sig: Union[int, float]
+
+    :param x_max_sig: The Maximum value of x axis for Sigmoid function
+    :type x_max_sig: Union[int, float]
+
+    :param no_points: The Number of points between given range
+    :type no_points: int
+
+    :param width: The width of figure in pixels
+    :type width: int
+
+    :param height: The height of figure in pixels
+    :type height: int
 
     :return: Nothing
     :rtype: None
     """
     try:
         # Checking if the Given Vector is of Type List
-        if not issubclass(type(vector), list):
-            # If not, an error is raised
-            raise AttributeError("Vector Should be Given as a List")
+        if (not isinstance(x_min_cs, int)) and (not isinstance(x_min_cs, float)):
+            raise AttributeError("The Minimum Values of cos, sine function should be int or float")
 
-        # Creating a map object with values either true (if the corresponding item is either integer or float) or false
-        type_check = map(lambda arg: issubclass(type(arg), int) or issubclass(type(arg), float), vector)
+        if (not isinstance(x_max_cs, int)) and (not isinstance(x_max_cs, float)):
+            raise AttributeError("The Maximum Values of cos, sine function should be int or float")
 
-        # Checking if all the elements of the list is of type integer or float
-        if not all(type_check):
-            # If not, an error is raised
-            raise AttributeError("The Vector Elements Should be Integer or Float")
+        if (not isinstance(x_min_sig, int)) and (not isinstance(x_min_sig, float)):
+            raise AttributeError("The Minimum Values of Sigmoid function should be int or float")
+
+        if (not isinstance(x_max_sig, int)) and (not isinstance(x_max_sig, float)):
+            raise AttributeError("The Maximum Values of Sigmoid function should be int or float")
+
+        if not isinstance(no_points, int):
+            raise AttributeError("The number of points should be of type int")
+
+        if not isinstance(width, int):
+            raise AttributeError("The width should be of type int")
+
+        if not isinstance(height, int):
+            raise AttributeError("The height should be of type int")
 
         # Creating the X axis and Y axis Points for all three curves
-        x_axis = np.array(vector)
-        y_axis_sin = np.sin(x_axis)
-        y_axis_cos = np.cos(x_axis)
-        y_axis_sig = 1 / (1 + np.exp(-x_axis))
+        x_axis_cs = np.linspace(x_min_cs, x_max_cs, no_points)
+        y_axis_sin = np.sin(x_axis_cs)
+        y_axis_cos = np.cos(x_axis_cs)
+
+        x_axis_sigmoid = np.linspace(x_min_sig, x_max_sig, no_points)
+        y_axis_sig = 1 / (1 + np.exp(-x_axis_sigmoid))
 
         # Creating plots for the sin function
-        plt.figure(figsize=(1920 / 96, 1080 / 96), dpi=96)
-        plt.plot(x_axis, y_axis_sin)
-        plt.savefig("sin.jpg", dpi=96)
+        plt.figure(figsize=(width / 96, height / 96), dpi=96)
+        plt.plot(x_axis_cs, y_axis_sin)
+        #plt.savefig("sin.jpg", dpi=96)
         plt.show()
 
         # Creating plots for the cos function
-        plt.figure(figsize=(1920 / 96, 1080 / 96), dpi=96)
-        plt.plot(x_axis, y_axis_cos)
-        plt.savefig("cos.jpg", dpi=96)
+        plt.figure(figsize=(width / 96, height / 96), dpi=96)
+        plt.plot(x_axis_cs, y_axis_cos)
+        #plt.savefig("cos.jpg", dpi=96)
         plt.show()
 
         # Creating plots for the sigmoid function
-        plt.figure(figsize=(1920 / 96, 1080 / 96), dpi=96)
-        plt.plot(x_axis, y_axis_sig)
-        plt.savefig("sigmoid.jpg", dpi=96)
+        plt.figure(figsize=(width / 96, height / 96), dpi=96)
+        plt.plot(x_axis_sigmoid, y_axis_sig)
+        #plt.savefig("sigmoid.jpg", dpi=96)
         plt.show()
     except AttributeError as err:
         LOGGER.error(err)

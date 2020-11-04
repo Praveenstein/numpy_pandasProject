@@ -28,6 +28,13 @@ def get_input_arguments():
     my_parser.add_argument('--logfile', action='store', type=str, required=True)
     my_parser.add_argument('--inputfile', action='store', type=str, required=False)
     my_parser.add_argument('--number', action='store', type=int, required=False)
+    my_parser.add_argument('--x_min_cs', action='store', type=float, required=False)
+    my_parser.add_argument('--x_max_cs', action='store', type=float, required=False)
+    my_parser.add_argument('--x_min_sig', action='store', type=float, required=False)
+    my_parser.add_argument('--x_max_sig', action='store', type=float, required=False)
+    my_parser.add_argument('--no_points', action='store', type=int, required=False)
+    my_parser.add_argument('--width', action='store', type=int, required=False)
+    my_parser.add_argument('--height', action='store', type=int, required=False)
 
     args = my_parser.parse_args()
     return args
