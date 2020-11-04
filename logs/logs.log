@@ -276,3 +276,13 @@ The eigen vector is:
 [0.26906912+0.40360368j 0.87447463+0.j        ]
 
 
+2020-11-04 12:32:11,794 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 12:32:11,794 -INFO - solutions.harmonic_progression_q3- harmonic_progression_q3.py - get_n_harmonic_term - The 6 th Term of given harmonic progression is: -4.0
+2020-11-04 12:32:46,378 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 12:32:46,379 -ERROR - solutions.harmonic_progression_q3- harmonic_progression_q3.py - get_n_harmonic_term - The given sequence is not a harmonic sequence
+2020-11-04 12:32:55,293 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 12:32:55,293 -INFO - solutions.harmonic_progression_q3- harmonic_progression_q3.py - get_n_harmonic_term - The 6 th Term of given harmonic progression is: -4.0
+2020-11-04 12:41:18,618 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 12:41:18,618 -INFO - solutions.harmonic_progression_q3- harmonic_progression_q3.py - get_n_harmonic_term - The 6 th Term of given harmonic progression is: -4.2857
+2020-11-04 12:43:07,303 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 12:43:07,310 -INFO - solutions.geometric_progression_q4- geometric_progression_q4.py - get_n_geometric_term - The 6 th Term of given Geometric progression is: -243.0

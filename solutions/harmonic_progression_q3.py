@@ -14,6 +14,9 @@ This script contains the following function
 # Standard Imports
 import logging
 
+# External Imports
+import numpy as np
+
 __author__ = "praveen@gyandata.com"
 
 LOGGER = logging.getLogger(__name__)
@@ -57,23 +60,23 @@ def get_n_harmonic_term(vector, term_number):
         if (not issubclass(type(term_number), int)) or term_number < 1:
             raise AttributeError("The term number should be integer and greater than zero")
 
+        # Creating a Harmonic Sequence
+        harmonic_sequence = np.array(vector)
+
         # Creating an arithemetic sequenc from the given harmonic sequence
-        arth_sequence = list(map(lambda arg: 1/arg, vector))
+        arth_sequence = np.power(harmonic_sequence, -1.0)
 
         # Finding the difference between all consecutive terms
-        difference = [arth_sequence[item+1] - arth_sequence[item] for item in range(4)]
+        difference = np.ediff1d(arth_sequence)
 
-        # Checking if they all have a common difference
-        difference_check = all([round(difference[0], 2) == round(difference[item], 2)
-                                for item in range(len(difference))])
+        difference = np.around(difference, decimals=2)
 
-        if not difference_check:
-            # If the the arithmetic sequence doesn't have a common sequence, then it is not an arithmetic sequence
+        if np.max(difference) != np.min(difference):
             raise AttributeError("The given sequence is not a harmonic sequence")
 
         # Finding the a element (first element of arithmetic sequence) and d element (common difference)
         element_a = arth_sequence[0]
-        element_d = difference[0]
+        element_d = arth_sequence[1] - arth_sequence[0]
 
         # Finding the Nth arithmetic term
         n_term_arithmetic = element_a + ((term_number - 1) * element_d)

@@ -14,6 +14,9 @@ This script contains the following function
 # Standard Imports
 import logging
 
+# External Imports
+import numpy as np
+
 __author__ = "praveen@gyandata.com"
 
 LOGGER = logging.getLogger(__name__)
@@ -57,19 +60,20 @@ def get_n_geometric_term(vector, term_number):
         if (not issubclass(type(term_number), int)) or term_number < 1:
             raise AttributeError("The term number should be integer and greater than zero")
 
+        # Creating a Harmonic Sequence
+        geometric_sequence = np.array(vector)
+
         # Finding the ratio between all consecutive terms
-        ratio = [vector[item+1] / vector[item] for item in range(4)]
+        ratio = geometric_sequence[:-1] / geometric_sequence[1:]
 
-        # Checking if they all have a common ratio
-        ratio_check = all([round(ratio[0], 2) == round(ratio[item], 2) for item in range(4)])
+        ratio = np.around(ratio, decimals=2)
 
-        if not ratio_check:
-            # If the the arithmetic sequence doesn't have a common sequence, then it is not an arithmetic sequence
+        if np.max(ratio) != np.min(ratio):
             raise AttributeError("The given sequence is not a geometric sequence")
 
         # Finding the a element (first element of geometric sequence) and r element (common ratio)
         element_a = vector[0]
-        element_r = ratio[0]
+        element_r = vector[1] / vector[0]
 
         # Finding the Nth arithmetic term
         n_term_geometric = element_a * (element_r ** (term_number - 1))
