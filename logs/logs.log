@@ -286,3 +286,130 @@ The eigen vector is:
 2020-11-04 12:41:18,618 -INFO - solutions.harmonic_progression_q3- harmonic_progression_q3.py - get_n_harmonic_term - The 6 th Term of given harmonic progression is: -4.2857
 2020-11-04 12:43:07,303 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
 2020-11-04 12:43:07,310 -INFO - solutions.geometric_progression_q4- geometric_progression_q4.py - get_n_geometric_term - The 6 th Term of given Geometric progression is: -243.0
+2020-11-04 12:53:50,326 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 12:53:50,327 -INFO - solutions.geometric_progression_q4- geometric_progression_q4.py - get_n_geometric_term - The 6 th Term of given Geometric progression is: 256.0
+2020-11-04 12:56:09,186 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 12:56:09,186 -ERROR - solutions.harmonic_progression_q3- harmonic_progression_q3.py - get_n_harmonic_term - The given sequence is not a harmonic sequence
+2020-11-04 12:56:45,265 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 12:56:45,265 -INFO - solutions.harmonic_progression_q3- harmonic_progression_q3.py - get_n_harmonic_term - The 6 th Term of given harmonic progression is: 2.0
+2020-11-04 13:37:16,910 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 13:38:03,171 -INFO - __main__- main_plot_digitiser_q11.py - main - [array([254.9590149 , 254.97532189, 254.97113845]), array([160.56263736, 169.53142857, 174.98901099]), array([215.26994434, 225.7244898 , 231.1038961 ])]
+2020-11-04 13:39:33,747 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 13:40:01,524 -INFO - __main__- main_plot_digitiser_q11.py - main - [array([254.95891366, 254.97527129, 254.97110476]), array([160.55545775, 169.48987676, 174.92825704]), array([215.11851852, 225.63981481, 231.06111111])]
+2020-11-04 13:40:40,146 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 13:40:46,409 -INFO - __main__- main_plot_digitiser_q11.py - main - [array([254.97113845, 254.97532189, 254.9590149 ]), array([174.98901099, 169.53142857, 160.56263736]), array([231.1038961 , 225.7244898 , 215.26994434])]
+2020-11-04 13:40:58,861 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 13:41:26,649 -INFO - __main__- main_plot_digitiser_q11.py - main - [array([254.9590149 , 254.97532189, 254.97113845]), array([160.56263736, 169.53142857, 174.98901099]), array([215.26994434, 225.7244898 , 231.1038961 ])]
+2020-11-04 13:42:37,800 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 13:42:42,708 -INFO - __main__- main_plot_digitiser_q11.py - main - [array([254.95891366, 254.97527129, 254.97110476]), array([160.56263736, 169.53142857, 174.98901099]), array([215.2553389 , 225.7084494 , 231.08913649])]
+2020-11-04 13:43:20,844 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 13:43:24,259 -INFO - __main__- main_plot_digitiser_q11.py - main - [array([254.95880397, 254.97522491, 254.97107953]), array([160.55545775, 169.48987676, 174.92825704]), array([215.10565338, 225.62279889, 231.04448563])]
+2020-11-04 13:43:50,088 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 13:43:54,075 -INFO - __main__- main_plot_digitiser_q11.py - main - [array([254.9590149 , 254.97532189, 254.97113845]), array([160.56263736, 169.53142857, 174.98901099]), array([215.26994434, 225.7244898 , 231.1038961 ])]
+2020-11-04 13:44:50,127 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 13:44:53,835 -INFO - __main__- main_plot_digitiser_q11.py - main - [array([254.9590149 , 254.97532189, 254.97113845]), array([160.56263736, 169.53142857, 174.98901099]), array([215.26994434, 225.7244898 , 231.1038961 ])]
+2020-11-04 13:48:34,024 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 13:49:04,266 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 13:50:36,756 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 13:52:36,854 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 13:55:34,964 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 14:08:40,857 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 14:09:11,564 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 14:19:51,667 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 14:20:29,750 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 14:30:55,530 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 14:31:16,864 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 14:33:06,358 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 14:35:18,412 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 14:35:26,326 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 14:35:26,327 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 14:35:26,328 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 14:35:26,329 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 14:44:49,024 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 14:44:56,487 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 14:44:56,488 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 14:45:56,316 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 14:46:11,525 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 14:46:19,504 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 14:46:19,505 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 14:57:22,731 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 14:57:30,539 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 14:57:30,539 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 14:58:44,407 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 14:58:52,014 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 14:58:52,014 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 14:59:06,451 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 14:59:14,532 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 14:59:14,533 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:00:20,379 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 15:00:28,050 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:00:28,050 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:01:53,146 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 15:02:01,095 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:02:01,095 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:02:24,800 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 15:02:32,673 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:02:32,673 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:02:56,935 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 15:03:04,632 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:03:04,633 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:03:26,613 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 15:03:33,936 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:03:33,936 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:03:54,695 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 15:04:04,245 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:04:04,246 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:04:43,452 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 15:04:51,755 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:04:51,755 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:05:36,499 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 15:05:43,951 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:05:43,951 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:15:26,210 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 15:15:33,441 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:15:33,442 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:19:25,570 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 15:19:33,182 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:19:33,182 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:20:45,237 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 15:20:52,499 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:20:52,501 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:22:32,921 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 15:22:40,307 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:22:40,307 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:48:53,560 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 15:49:00,816 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:49:00,817 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:52:32,963 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 15:52:40,547 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:52:40,547 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:53:13,796 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 15:53:21,779 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 15:53:21,779 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 16:00:24,295 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 16:00:31,992 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 16:00:31,992 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 16:15:36,090 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 16:15:43,397 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 16:15:43,398 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 16:17:32,114 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 16:17:39,740 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 16:17:39,741 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 16:20:05,772 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 16:20:14,286 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 16:20:14,286 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 16:20:54,946 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 16:21:02,931 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 16:21:02,932 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 16:22:39,377 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 16:22:47,853 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 16:22:47,854 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 16:24:29,032 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 16:24:36,854 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 16:24:36,854 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 16:28:25,290 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 16:28:53,248 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 16:54:41,419 -INFO - solutions.utils.logger- logger.py - configure_logging - Configured Logging
+2020-11-04 16:54:41,447 -INFO - solutions.plot_digitizer_q11- plot_digitizer_q11.py - digitize_plots - The Shape of given Image: (1080, 1920, 3)
+2020-11-04 16:54:49,270 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2020-11-04 16:54:49,271 -INFO - matplotlib.category- category.py - update - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.

@@ -16,4 +16,4 @@ from solutions.eingen_value_vector_q10 import find_eigen_value_vector
 from solutions.moving_mean_q8 import find_sma_em
 from solutions.first_order_differentitaion_q6 import find_derivatives
 from solutions.knee_of_curve_q9 import plot_knee
-from solutions.plot_digitizer_q11 import new_func
+from solutions.plot_digitizer_q11 import digitize_plots

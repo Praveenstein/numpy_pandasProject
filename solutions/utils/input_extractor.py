@@ -37,7 +37,7 @@ def get_vector_from_file(filepath):
             input_data = file_object.read()
 
         input_data = input_data.split(",")
-        input_data = list(map(lambda arg: float(arg), input_data))
+        input_data = list(map(lambda arg: float(arg.strip(" \n")), input_data))
         return input_data
     except FileNotFoundError as err:
         LOGGER.error("FileNotFoundError: %s", err)
@@ -66,7 +66,7 @@ def get_matrix_from_file(filepath):
             for lines in file_object:
                 input_line = lines
                 input_line = input_line.split(",")
-                input_line = list(map(lambda arg: float(arg.rstrip("\n")), input_line))
+                input_line = list(map(lambda arg: float(arg.strip(" \n")), input_line))
                 input_data.append(input_line)
         return input_data
     except FileNotFoundError as err:
@@ -97,7 +97,7 @@ def get_complex_matrix_from_file(filepath):
             for lines in file_object:
                 input_line = lines
                 input_line = input_line.split(",")
-                input_line = list(map(lambda arg: complex(arg.rstrip("\n")), input_line))
+                input_line = list(map(lambda arg: complex(arg.strip(" \n")), input_line))
                 input_data.append(input_line)
         return input_data
     except FileNotFoundError as err:

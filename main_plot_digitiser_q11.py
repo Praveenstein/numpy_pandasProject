@@ -39,8 +39,8 @@ def main():
     helper.configure_logging(log_config_file)
 
     # Plotting the Curves
-    colors = solutions.new_func(3, True)
-    LOGGER.info(colors)
+    solutions.digitize_plots(helper.ARGUMENTS.inputfile, helper.ARGUMENTS.number, helper.ARGUMENTS.x_min,
+                             helper.ARGUMENTS.x_max, helper.ARGUMENTS.y_min, helper.ARGUMENTS.y_max)
 
 
 if __name__ == '__main__':
